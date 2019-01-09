@@ -1,0 +1,3 @@
+void afoo();
+
+void abar();

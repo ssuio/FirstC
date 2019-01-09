@@ -1,0 +1,3 @@
+void bfoo();
+
+void bbar();
