@@ -1,0 +1,8 @@
+set(liba_SRCS liba.c)
+set(libb_SRCS libb.c)
+
+add_library(a SHARED ${liba_SRCS})
+add_library(b SHARED ${libb_SRCS})
+
+install(TARGETS a b LIBRARY
+        DESTINATION lib)
